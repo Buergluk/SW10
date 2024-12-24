@@ -84,3 +84,34 @@ nav a:hover {
     background-color: #555; /* Hintergrundfarbe bei Hover */
     text-decoration: none; /* Entfernt die Unterstreichung bei Hover */
 }
+
+/* Media Queries für mobile Geräte */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav .logo {
+        margin-bottom: 10px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    nav a {
+        width: 100%;
+        text-align: center;
+    }
+
+    .text-box {
+        width: 90%;
+        height: auto;
+    }
+}
