@@ -93,6 +93,7 @@ nav a:hover {
     }
 
     nav .logo {
+        height: 40px; /* Höhe des Logos für mobile Geräte */
         margin-bottom: 10px;
     }
 
