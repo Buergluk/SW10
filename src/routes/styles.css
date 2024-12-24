@@ -90,6 +90,7 @@ nav a:hover {
     nav {
         flex-direction: column;
         align-items: flex-start;
+        padding: 10px; /* Zusätzliche Polsterung für mobile Geräte */
     }
 
     nav .logo {
@@ -109,10 +110,12 @@ nav a:hover {
     nav a {
         width: 100%;
         text-align: center;
+        padding: 10px; /* Zusätzliche Polsterung für mobile Geräte */
     }
 
     .text-box {
         width: 90%;
         height: auto;
+        margin: 20px auto; /* Zentriert die Textbox auf mobilen Geräten */
     }
 }
