@@ -39,10 +39,27 @@ body {
     padding: 20px;
     overflow: auto; /* Falls der Inhalt größer als die Box ist */
 }
+
+nav {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    width: 100%; /* Volle Breite */
+    box-sizing: border-box; /* Berücksichtigt Padding und Border in der Breite */
+    border-bottom: 2px solid black; /* Rahmen unten */
+    display: flex;
+    align-items: center; /* Zentriert das Logo vertikal */
+    justify-content: flex-start; /* Logo und Links nach links ausrichten */
+}
+
+nav .logo {
+    height: 50px; /* Höhe des Logos */
+    margin-right: 20px; /* Abstand zwischen Logo und Links */
+}
+
 nav ul {
     list-style: none;
     display: flex;
-    justify-content: flex-start;
     margin: 0;
     padding: 0;
 }
@@ -51,12 +68,19 @@ nav ul li {
     margin: 0 15px;
 }
 
-nav ul li a {
-    color: black;
+nav a {
+    color: white; /* Färbt die Menüpunkte weiß */
     text-decoration: none;
-    font-weight: bold;
+    font-weight: bold; /* Setzt die Schrift auf fett */
+    background-color: #444; /* Hintergrundfarbe der Buttons */
+    padding: 10px 20px; /* Innenabstand der Buttons */
+    border-radius: 5px; /* Abgerundete Ecken */
+    border: 1px solid #555; /* Rahmen der Buttons */
+    transition: background-color 0.3s; /* Übergangseffekt bei Hover */
+    margin: 0 15px; /* Abstand zwischen den Links */
 }
 
-nav ul li a:hover {
-    text-decoration: underline;
+nav a:hover {
+    background-color: #555; /* Hintergrundfarbe bei Hover */
+    text-decoration: none; /* Entfernt die Unterstreichung bei Hover */
 }
