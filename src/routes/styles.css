@@ -88,29 +88,29 @@ nav a:hover {
 /* Media Queries für mobile Geräte */
 @media (max-width: 768px) {
     nav {
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 10px; /* Zusätzliche Polsterung für mobile Geräte */
+        flex-direction: row; /* Elemente nebeneinander anordnen */
+        align-items: center;
+        padding: 5px 10px; /* Weniger Polsterung für mobile Geräte */
     }
 
     nav .logo {
-        height: 40px; /* Höhe des Logos für mobile Geräte */
-        margin-bottom: 10px;
+        height: 30px; /* Höhe des Logos für mobile Geräte */
+        margin-right: 10px; /* Weniger Abstand zwischen Logo und Links */
     }
 
     nav ul {
-        flex-direction: column;
-        width: 100%;
+        flex-direction: row; /* Links nebeneinander anordnen */
+        margin: 0;
+        padding: 0;
     }
 
     nav ul li {
-        margin: 10px 0;
+        margin: 0 5px; /* Weniger Abstand zwischen den Links */
     }
 
     nav a {
-        width: 100%;
-        text-align: center;
-        padding: 10px; /* Zusätzliche Polsterung für mobile Geräte */
+        padding: 5px 10px; /* Weniger Polsterung für mobile Geräte */
+        font-size: 14px; /* Kleinere Schriftgröße für mobile Geräte */
     }
 
     .text-box {
