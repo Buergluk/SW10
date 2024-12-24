@@ -1,9 +1,9 @@
 <script>
 </script>
 
-<div class="container">
+<div class="text-box">
   <h1>ShareYourHut</h1>
-  <p>Willkomen bei ShareYourHut</p>
+  <p>Willkommen bei ShareYourHut</p>
   <h3>
     Eintauchen in die Stille der Berge – Ihre Auszeit in einer abgeschiedenen
     Berghütte
@@ -32,16 +32,17 @@
   <p>
     Wählen Sie Ihre perfekte Hütte, prüfen Sie die Verfügbarkeit und sichern Sie
     sich Ihr persönliches Berghütten-Erlebnis. Ob für romantische Tage zu zweit,
-    ein Abenteuer mit Freunden oder eine Familie, die den Berg ruft – bei uns
-    finden Sie die passende Unterkunft.
-  </p>
-  <h3>Bereit für das Abenteuer?</h3>
-  <p>
-    Tauchen Sie ein in die faszinierende Welt der Berge und lassen Sie sich von
-    der Natur inspirieren. Ihre Auszeit beginnt hier – in einer Berghütte, die
-    nur darauf wartet, von Ihnen entdeckt zu werden.
+    ein Wochenende mit der Familie oder ein Abenteuer mit Freunden – wir haben
+    die passende Hütte für jeden Anlass.
   </p>
 </div>
 
 <style>
+  .text-box {
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 50%;
+    height: 100vh;       /* Füllt den gesamten verfügbaren vertikalen Platz */
+    margin: 0;
+    padding: 20px;
+  }
 </style>
