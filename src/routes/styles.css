@@ -21,6 +21,7 @@ body {
     height: 100vh; 
     margin: 0; 
 }
+
 .form-container {
     background-color: white;
     color: black;
@@ -31,6 +32,7 @@ body {
     margin-left: 0;
     margin-right: auto;
 }
+
 .text-box {
     background-color: rgba(255, 255, 255, 0.8);
     width: 50%;
@@ -81,41 +83,14 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #555; /* Hintergrundfarbe bei Hover */
-    text-decoration: none; /* Entfernt die Unterstreichung bei Hover */
+    background-color: #555; 
+    text-decoration: none; 
 }
 
-/* Media Queries für mobile Geräte */
 @media (max-width: 768px) {
-    nav {
-        flex-direction: row; /* Elemente nebeneinander anordnen */
-        align-items: center;
-        padding: 5px 10px; /* Weniger Polsterung für mobile Geräte */
-    }
-
-    nav .logo {
-        height: 30px; /* Höhe des Logos für mobile Geräte */
-        margin-right: 10px; /* Weniger Abstand zwischen Logo und Links */
-    }
-
-    nav ul {
-        flex-direction: row; /* Links nebeneinander anordnen */
-        margin: 0;
-        padding: 0;
-    }
-
-    nav ul li {
-        margin: 0 5px; /* Weniger Abstand zwischen den Links */
-    }
-
-    nav a {
-        padding: 5px 10px; /* Weniger Polsterung für mobile Geräte */
-        font-size: 14px; /* Kleinere Schriftgröße für mobile Geräte */
-    }
-
     .text-box {
         width: 90%;
         height: auto;
-        margin: 20px auto; /* Zentriert die Textbox auf mobilen Geräten */
+        margin: 20px auto;
     }
 }

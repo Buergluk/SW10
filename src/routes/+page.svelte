@@ -41,7 +41,7 @@
   .text-box {
     background-color: rgba(255, 255, 255, 0.8);
     width: 50%;
-    height: 100vh;       /* Füllt den gesamten verfügbaren vertikalen Platz */
+    height: 100vh;      
     margin: 0;
     padding: 20px;
   }

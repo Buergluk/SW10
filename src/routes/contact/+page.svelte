@@ -20,15 +20,15 @@
 <div class="text-box">
     <h1>Kontakt</h1>
     <p>
-        Wir freuen uns, von dir zu hören! Ob du Fragen zu unseren Berghütten, zur
-        Buchung oder zu besonderen Wünschen hast – wir sind hier, um dir zu helfen.
+        Wir freuen uns, von Ihnen zu hören! Ob Sie Fragen zu unseren Berghütten, zur
+        Buchung oder zu besonderen Wünschen haben – wir sind hier, um Ihnen zu helfen.
     </p>
-    <h2>So erreichst du uns:</h2>
+    <h2>So erreichen Sie uns:</h2>
     <p>📧 E-Mail: info@example.ch</p> 
     <p>📞 Telefon: +49 123 456 7890</p>
     <h2>Postadresse:</h2>
     <p>ShareYourHut GmbH Bergstraße 12 12345 Alpenstadt</p>
-    <h2>Oder nutze unser Kontaktformular:</h2>
+    <h2>Oder über unser Kontaktformular:</h2>
     <form on:submit={handleSubmit}>
         <div class="form-group">
             <label for="name">Name:</label>
@@ -57,7 +57,7 @@
         height: 100vh;
         margin: 0;
         padding: 20px;
-        overflow: auto; /* Falls der Inhalt größer als die Box ist */
+        overflow: auto;
     }
 
     .form-container {
